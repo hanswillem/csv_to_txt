@@ -4,6 +4,6 @@
 
 ### HOW TO USE
 
-`python cxv_to_txt.py epilepticfit.csv -ch 3  `
+`python csv_to_txt.py epilepticfit.csv -ch 3  `
 
 -ch = The EEG channel number  .
