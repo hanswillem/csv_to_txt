@@ -6,4 +6,4 @@
 
 `python cxv_to_txt.py epilepticfit.csv -ch 3  `
 
--ch = the EEG channel number  
+-ch = The EEG channel number  .
