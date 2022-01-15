@@ -70,8 +70,6 @@ if __name__ == '__main__':
     parser.add_argument("-ch", "--channel", default = 0, help = "EEG Channel number.", type = int)
     args = parser.parse_args()
 
-    #CSVFile = "CHB-MIT_chb23_09.csv"
-
     # setup
     CSVFile = args.fileCSV
     channel = args.channel
@@ -80,4 +78,5 @@ if __name__ == '__main__':
     biosignal = getBioSignals(CSVFile)[channel]
     name = getNamesFromCSV(CSVFile)[channel]
     writeFile(biosignal)
+
     print(name + ": " + str(len(biosignal)) + " samples written!")
