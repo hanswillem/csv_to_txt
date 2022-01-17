@@ -5,13 +5,11 @@
 ### HOW TO USE
 
 `python csv_to_txt.py epilepticfit.csv -ch 3  `
-<br>
-(Results in a single text file.)
 
 -ch = The EEG channel number  .
+Results in a single text file.
 
 `python csv_to_txt_split.py epilepticfit.csv -ch 3  `
-<br>
-(Results in multiple text files of 32 values each.) 
- 
+
 -ch = The EEG channel number  .
+Results in multiple text files of 32 values each.
